@@ -1,0 +1,10 @@
+{
+  "PluginID": "5d6d94d3c2394a98b077e405f54a131d",
+  "Name": "Windows Local TTS",
+  "Description": "Offline text-to-speech using locally installed Windows voices.",
+  "Author": "HKW",
+  "Version": "1.0.0",
+  "Website": "",
+  "ExecuteFileName": "STranslate.Plugin.Tts.Windows.dll",
+  "IconPath": "icon.png"
+}

@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">음성 엔진</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">Windows 음성 엔진을 선택합니다. 자동 대체는 하지 않습니다.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media(OneCore)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech(SAPI)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">음성</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">선택한 엔진에 설치된 음성입니다. 두 엔진의 음성 목록은 서로 다릅니다.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">음성 새로 고침</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">속도</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">말하기 속도는 0.50×~2.00×입니다.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">볼륨</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">볼륨은 0~100%입니다.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">음성 테스트</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">테스트 재생</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">Windows 로컬 텍스트 음성 변환 테스트입니다.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">테스트 음성을 재생했습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">테스트 음성 재생에 실패했습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">음성 {0}개를 불러왔습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">설치된 음성을 불러오지 못했습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">선택한 엔진에 설치된 음성이 없습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">음성을 선택하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">선택한 음성을 사용할 수 없습니다: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">음성 엔진이 오디오 데이터를 반환하지 않았습니다</sys:String>
+</ResourceDictionary>

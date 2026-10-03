@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">Konuşma motoru</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">Bir Windows konuşma motoru seçin. Otomatik geri dönüş yapılmaz.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media (OneCore)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech (SAPI)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">Ses</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">Seçili motor için yüklü sesler. İki motorun ses listeleri ayrıdır.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">Sesleri yenile</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">Hız</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">Konuşma hızı 0,50× ile 2,00× arasındadır.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">Ses düzeyi</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">Ses düzeyi %0 ile %100 arasındadır.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">Konuşmayı test et</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">Testi oynat</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">Bu bir Windows yerel metin okuma testidir.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">Test konuşması başarıyla oynatıldı</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">Test konuşması başarısız oldu</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">{0} ses yüklendi</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">Yüklü sesler alınamadı</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">Seçili motor için yüklü ses yok</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">Lütfen bir ses seçin</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">Seçili ses kullanılamıyor: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">Konuşma motoru ses verisi döndürmedi</sys:String>
+</ResourceDictionary>

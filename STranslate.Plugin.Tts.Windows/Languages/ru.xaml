@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">Речевой движок</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">Выберите речевой движок Windows. Автоматического переключения нет.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media (OneCore)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech (SAPI)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">Голос</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">Голоса, установленные для выбранного движка. Списки движков различаются.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">Обновить голоса</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">Скорость</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">Скорость речи от 0,50× до 2,00×.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">Громкость</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">Громкость от 0 до 100%.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">Проверка речи</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">Воспроизвести тест</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">Это проверка локального синтеза речи Windows.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">Проверка речи выполнена</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">Ошибка проверки речи</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">Загружено голосов: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">Не удалось загрузить установленные голоса</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">Для выбранного движка не установлены голоса</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">Выберите голос</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">Выбранный голос недоступен: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">Речевой движок не вернул аудиоданные</sys:String>
+</ResourceDictionary>

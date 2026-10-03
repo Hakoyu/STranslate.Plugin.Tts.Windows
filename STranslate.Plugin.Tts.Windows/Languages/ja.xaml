@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">音声エンジン</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">Windows 音声エンジンを選択します。自動フォールバックは行いません。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media（OneCore）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech（SAPI）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">音声</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">選択したエンジンにインストール済みの音声です。両エンジンの一覧は別々です。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">音声を更新</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">速度</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">読み上げ速度は 0.50×～2.00× です。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">音量</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">音量は 0～100% です。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">読み上げテスト</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">テストを再生</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">Windows ローカル音声合成のテストです。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">テスト再生に成功しました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">テスト再生に失敗しました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">{0} 件の音声を読み込みました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">インストール済み音声を読み込めませんでした</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">選択したエンジンに音声がインストールされていません</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">音声を選択してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">選択した音声は利用できません: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">音声エンジンから音声データが返されませんでした</sys:String>
+</ResourceDictionary>

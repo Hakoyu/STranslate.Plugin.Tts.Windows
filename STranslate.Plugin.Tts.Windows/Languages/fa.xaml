@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">موتور گفتار</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">یک موتور گفتار ویندوز را انتخاب کنید. بازگشت خودکار انجام نمی‌شود.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media (OneCore)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech (SAPI)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">صدا</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">صداهای نصب‌شده برای موتور انتخابی. فهرست صدای دو موتور جدا است.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">بازخوانی صداها</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">سرعت</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">سرعت گفتار از ۰٫۵۰× تا ۲٫۰۰× است.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">بلندی صدا</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">بلندی صدا از ۰ تا ۱۰۰٪ است.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">آزمایش گفتار</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">پخش آزمایشی</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">این یک آزمایش تبدیل متن به گفتار محلی ویندوز است.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">گفتار آزمایشی با موفقیت پخش شد</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">پخش گفتار آزمایشی ناموفق بود</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">تعداد {0} صدا بارگیری شد</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">بارگیری صداهای نصب‌شده ناموفق بود</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">برای موتور انتخابی صدایی نصب نشده است</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">لطفاً یک صدا انتخاب کنید</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">صدای انتخابی در دسترس نیست: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">موتور گفتار دادهٔ صوتی برنگرداند</sys:String>
+</ResourceDictionary>

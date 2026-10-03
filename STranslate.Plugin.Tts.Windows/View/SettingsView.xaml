@@ -1,0 +1,120 @@
+<UserControl
+    x:Class="STranslate.Plugin.Tts.Windows.View.SettingsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:ikw="http://schemas.inkore.net/lib/ui/wpf"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+    xmlns:vm="clr-namespace:STranslate.Plugin.Tts.Windows.ViewModel"
+    d:DataContext="{d:DesignInstance Type=vm:SettingsViewModel}"
+    d:DesignHeight="640"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+
+    <ikw:SimpleStackPanel Spacing="12">
+        <ui:SettingsCard
+            Description="{DynamicResource STranslate_Plugin_Tts_Windows_Engine_Description}"
+            Header="{DynamicResource STranslate_Plugin_Tts_Windows_Engine}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.PersonVoice_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <ComboBox
+                MinWidth="260"
+                DisplayMemberPath="DisplayName"
+                ItemsSource="{Binding Engines}"
+                SelectedValue="{Binding Engine, Mode=TwoWay}"
+                SelectedValuePath="Kind" />
+        </ui:SettingsCard>
+
+        <ui:SettingsCard
+            Description="{DynamicResource STranslate_Plugin_Tts_Windows_Voice_Description}"
+            Header="{DynamicResource STranslate_Plugin_Tts_Windows_Voice}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.PersonVoice_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <ikw:SimpleStackPanel Orientation="Horizontal" Spacing="8">
+                <ComboBox
+                    MinWidth="260"
+                    DisplayMemberPath="DisplayName"
+                    ItemsSource="{Binding Voices}"
+                    SelectedValue="{Binding VoiceId, Mode=TwoWay}"
+                    SelectedValuePath="Id" />
+                <Button Command="{Binding RefreshVoicesCommand}">
+                    <ui:IconAndText
+                        Content="{DynamicResource STranslate_Plugin_Tts_Windows_RefreshVoices}"
+                        Icon="{x:Static ui:FluentSystemIcons.ArrowDownload_24_Regular}" />
+                </Button>
+            </ikw:SimpleStackPanel>
+        </ui:SettingsCard>
+
+        <ui:SettingsCard
+            Description="{DynamicResource STranslate_Plugin_Tts_Windows_Speed_Description}"
+            Header="{DynamicResource STranslate_Plugin_Tts_Windows_Speed}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.TopSpeed_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <Grid MinWidth="300">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="56" />
+                </Grid.ColumnDefinitions>
+                <Slider
+                    Grid.Column="0"
+                    IsSnapToTickEnabled="True"
+                    LargeChange="0.1"
+                    Maximum="2"
+                    Minimum="0.5"
+                    SmallChange="0.05"
+                    TickFrequency="0.05"
+                    Value="{Binding Speed, Mode=TwoWay}" />
+                <TextBlock
+                    Grid.Column="1"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Text="{Binding Speed, StringFormat={}{0:F2}×}" />
+            </Grid>
+        </ui:SettingsCard>
+
+        <ui:SettingsCard
+            Description="{DynamicResource STranslate_Plugin_Tts_Windows_Volume_Description}"
+            Header="{DynamicResource STranslate_Plugin_Tts_Windows_Volume}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.MusicNote2_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <Grid MinWidth="300">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="48" />
+                </Grid.ColumnDefinitions>
+                <Slider
+                    Grid.Column="0"
+                    IsSnapToTickEnabled="True"
+                    LargeChange="10"
+                    Maximum="100"
+                    Minimum="0"
+                    SmallChange="1"
+                    TickFrequency="1"
+                    Value="{Binding Volume, Mode=TwoWay}" />
+                <TextBlock
+                    Grid.Column="1"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Text="{Binding Volume, StringFormat={}{0}%}" />
+            </Grid>
+        </ui:SettingsCard>
+
+        <ui:SettingsCard
+            Description="{Binding Status}"
+            Header="{DynamicResource STranslate_Plugin_Tts_Windows_Test}">
+            <ui:SettingsCard.HeaderIcon>
+                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Play_24_Regular}" />
+            </ui:SettingsCard.HeaderIcon>
+            <Button Command="{Binding TestCommand}">
+                <ui:IconAndText
+                    Content="{DynamicResource STranslate_Plugin_Tts_Windows_TestButton}"
+                    Icon="{x:Static ui:FluentSystemIcons.Play_24_Regular}" />
+            </Button>
+        </ui:SettingsCard>
+    </ikw:SimpleStackPanel>
+</UserControl>

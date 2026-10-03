@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">Speech engine</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">Choose a Windows speech engine. The plugin does not fall back automatically.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media (OneCore)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech (SAPI)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">Voice</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">Voices installed for the selected engine. Windows Media and System.Speech have separate voice lists.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">Refresh voices</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">Speed</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">Speaking speed from 0.50× to 2.00×.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">Volume</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">Audio volume from 0 to 100%.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">Test speech</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">Play test</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">This is a Windows local text-to-speech test.</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">Test speech played successfully</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">Test speech failed</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">Loaded {0} voices</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">Failed to load installed voices</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">No voices are installed for the selected engine</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">Please select a voice</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">The selected voice is unavailable: {0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">The speech engine returned no audio data</sys:String>
+</ResourceDictionary>

@@ -1,0 +1,27 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine">語音引擎</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_Description">選擇 Windows 語音引擎。外掛不會自動回退。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_WindowsMedia">Windows Media（OneCore）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Engine_SystemSpeech">System.Speech（SAPI）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice">語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Voice_Description">目前引擎已安裝的語音。Windows Media 與 System.Speech 使用不同的語音清單。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_RefreshVoices">重新整理語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed">語速</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Speed_Description">朗讀速度範圍為 0.50× 至 2.00×。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume">音量</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Volume_Description">音量範圍為 0 至 100%。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_Test">測試朗讀</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestButton">播放測試</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestText">這是一段 Windows 本機文字轉語音測試。</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestSuccess">測試朗讀成功</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_TestFailure">測試朗讀失敗</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoaded">已載入 {0} 個語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoicesLoadFailure">無法載入已安裝語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_NoVoices">所選引擎沒有已安裝的語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceRequired">請選擇語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_VoiceUnavailable">所選語音無法使用：{0}</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Windows_EmptyAudio">語音引擎未傳回音訊資料</sys:String>
+</ResourceDictionary>
